@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
+// import Particle from "../Particle";
 
 import reactapp from "../../Assets/Projects/proj5.png";
 import portfolio1 from "../../Assets/Projects/port.png";
@@ -10,7 +10,7 @@ import onlinestore from "../../Assets/Projects/store.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
-      <Particle />
+      {/* <Particle /> */}
       <Container>
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
@@ -49,7 +49,7 @@ function Projects() {
               description="
 TextUtils is a web application designed for processing and manipulating text. It offers various tools such as text transformation (e.g., converting text to uppercase, lowercase, counting characters and words The interface is usually straightforward, allowing users to input text and select the desired operations with ease."
                ghLink="https://github.com/Yash-2562/React-projects/tree/main/Textutils"
-              demoLink="textutilsyp.netlify.app"              
+              demoLink="https://textutilsyp.netlify.app/"              
             />
           </Col>
 

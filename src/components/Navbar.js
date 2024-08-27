@@ -27,7 +27,7 @@ function NavBar() {
 
   window.addEventListener("scroll", scrollHandler);
   const style = {
-    color: "white",
+    
     fontSize: '40px',
     font:"bold"
   };
