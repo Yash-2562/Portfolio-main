@@ -36,7 +36,6 @@ function App() {
         <Navbar />
         <ScrollToTop />
 
-        
         <Routes>
           <Route path="/" element={<Home />} />
 
