@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 // import Particle from "../Particle";
 
 import reactapp from "../../Assets/Projects/proj5.png";
+import userPost from "../../Assets/Projects/proj4.png";
 import portfolio1 from "../../Assets/Projects/port.png";
 import onlinestore from "../../Assets/Projects/store.png";
 
@@ -38,6 +39,17 @@ function Projects() {
               description="This project is a frontend implementation of an eCommerce website built using React, Tailwind CSS. It provides users with a seamless dummy shopping experience, featuring product listing search functionality, cart management, and more."
               ghLink="https://github.com/Yash-2562/OnlineStore"
               demoLink="https://onlinestore28.netlify.app"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={userPost}
+              isBlog={false}
+              title="Dummy-user"
+              description="Made  a User Profile interface where where users can Create their post ,view details, and edit and delete them which also feature CRUD operations.
+Technologies used : MongoDB is to store user data and Express.js is a Backend framework to create API endpoints and React.js is a Frontend library to build the user interface."
+              ghLink="https://github.com/Yash-2562/OnlieStore"
+              demoLink="https://onlinestore28.netlify.ap"
             />
           </Col>
 
